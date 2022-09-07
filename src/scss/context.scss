@@ -1,0 +1,43 @@
+.context {
+    padding-top: 5rem;
+    width: 80rem;
+    margin: 0 auto;
+
+    &__container {
+        @include container;
+    }
+
+    &__title {
+        padding: 5rem 0;
+        font-size: 3.5rem;
+        font-weight: 100;
+
+        @media screen and (max-width: 600px) {
+            font-size: 3rem;
+        }
+    }
+
+    &__content {
+        text-align: left;
+    }
+
+    &__user-list {
+        padding: 2rem 0;
+    }
+
+    button {
+        color: white;
+        margin-top: 1rem;
+        box-shadow: none;
+        border: none;
+        font-size: 1.6rem;
+        padding: 1rem;
+        font-family: $default-font-family;
+        font-weight: 300;
+        background-color: #ff7675;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

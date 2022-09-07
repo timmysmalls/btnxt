@@ -1,0 +1,11 @@
+$dark-grey: #2d3436;
+$default-font-family: Roboto, Helvetica, sans-serif;
+
+@mixin container {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    max-width: 108rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}

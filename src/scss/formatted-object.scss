@@ -1,0 +1,25 @@
+.formatted-object {
+    padding-top: 5rem;
+    width: 80rem;
+    margin: 0 auto;
+
+    &__title {
+        padding: 5rem 0;
+        font-size: 3.5rem;
+        font-weight: 100;
+
+        @media screen and (max-width: 600px) {
+            font-size: 3rem;
+        }
+    }
+
+    &__output {
+        color: white;
+        text-align: left;
+        font-family: monospace;
+
+        b {
+            color: #fd79a8;
+        }
+    }
+}

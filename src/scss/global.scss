@@ -1,0 +1,14 @@
+html {
+    height: 100%;
+    font-size: 62.5%;
+    overflow-y: scroll;
+}
+
+body {
+    font-family: $default-font-family;
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+    position: relative;
+    min-height: 100vh;
+}

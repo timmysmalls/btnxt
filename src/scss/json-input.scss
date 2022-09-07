@@ -1,0 +1,54 @@
+.json-input {
+    width: 80rem;
+    margin: 0 auto;
+
+    &__input {
+        resize: none;
+        font-size: 1.6rem;
+        padding: 1rem;
+        margin: 0 auto;
+        border-radius: 0;
+        background-color: #b2bec3;
+        outline: none;
+        height: 50rem;
+        width: 100%;
+
+        &:focus {
+            border: 2px solid #ff7675;
+        }
+    }
+    
+    &__error {
+        color: #d63031;
+        text-align: left;
+        margin-top: 0.6rem;
+    }
+
+    &__button {
+        width: 100%;
+        color: white;
+        margin-top: 1rem;
+        box-shadow: none;
+        border: none;
+        font-size: 1.6rem;
+        padding: 1rem;
+        font-family: $default-font-family;
+        font-weight: 300;
+
+        &--disabled {
+            background-color: #b2bec3;
+
+            &:hover {
+                cursor: not-allowed;
+            }
+        }
+
+        &--enabled {
+            background-color: #ff7675;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
