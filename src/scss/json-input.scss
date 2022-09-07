@@ -17,6 +17,12 @@
             border: 2px solid #ff7675;
         }
     }
+
+    &__instructions {
+        color: white;
+        text-align: left;
+        margin-bottom: 1rem;
+    }
     
     &__error {
         color: #d63031;
